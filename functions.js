@@ -43,14 +43,12 @@ function uInput(){
     var result=Math.floor((20 * Math.random()));
     if(input == result){
         console.log("You guessed correctly!!");
-        console.log(input);
-        console.log(result);
-    }
+        console.log("You entered " + input + ", I guessed " + result);
+     }
     else {
         console.log("You guessed incorrectly.");
-        console.log(input);
-        console.log(result);
-    }   
+        console.log("You entered " + input + ", I guessed " + result);
+     }   
     
 }
 uInput();
